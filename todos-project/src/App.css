@@ -1,0 +1,72 @@
+body{
+    background-color: rgb(176, 136, 136);
+}
+
+.home-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 500px;
+}
+
+.home-page h2{
+    font-size: 36px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color: rgb(50, 42, 32);
+}
+
+.create-form input{
+    width: 300px;
+    padding: 10px;
+    border-bottom: 2px solid;
+    outline: none;
+}
+
+.create-form button{
+    padding: 10px;
+    background-color: rgb(174, 81, 81);
+    color: white;
+    cursor: pointer;
+}
+
+.task{
+    display: flex;
+    align-items: center;
+    width: 360px;
+    justify-content: space-between;
+    background-color: rgb(138, 69, 69);
+    color: white;
+    height: 35px;
+    padding: 2px 5px;
+    margin-top: 20px;
+}
+
+.checkbox{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.line{
+    text-decoration: line-through;
+}
+
+
+.checkbox .icon{
+    cursor: pointer;
+}
+
+.task div span{
+    margin: 0px 5px;
+}
+
+.task div .icon{
+    cursor: pointer;
+}
